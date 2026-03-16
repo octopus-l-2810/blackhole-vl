@@ -1,9 +1,7 @@
 #!/bin/sh
 exec 2>&1
 _user=_sing_box
-! [ -d /var/lib/sing-box ] && install -m 700 -g $_user -o $_user -d /var/lib/sing-box
 ! [ -d /run/sing-box ] && install -m 700 -g $_user -o $_user -d /run/sing-box
-chown -R $_user:$_user /run/sing-box
 _caps='-all,+net_admin,+net_raw,+net_bind_service,+sys_ptrace,+dac_read_search'
 
 exec setpriv --reuid $_user --regid $_user --clear-groups \
