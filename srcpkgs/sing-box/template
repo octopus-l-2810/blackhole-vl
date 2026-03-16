@@ -13,7 +13,7 @@ license="GPL-3.0-or-later"
 homepage="https://sing-box.sagernet.org/"
 distfiles="https://github.com/SagerNet/sing-box/archive/refs/tags/v${version}.tar.gz"
 checksum="6ddc71596dc937873c5aba15a4f2b395c5434265efdc1bd21f4c03d8c5b7f641"
-system_accounts="_sing-box"
+system_accounts="_sing_box"
 conf_files="/etc/sing-box/config.json"
 
 post_install() {
