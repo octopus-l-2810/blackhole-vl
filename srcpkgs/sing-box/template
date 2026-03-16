@@ -1,7 +1,7 @@
 # Template file for 'sing-box'
 pkgname=sing-box
 version=1.13.0
-revision=1
+revision=2
 build_style=go
 go_import_path=github.com/sagernet/sing-box
 go_package=github.com/sagernet/sing-box/cmd/sing-box
