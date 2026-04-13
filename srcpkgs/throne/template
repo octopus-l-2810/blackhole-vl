@@ -1,7 +1,7 @@
 # Template file for 'throne'
 pkgname=throne
-version=1.1.1
-revision=2
+version=1.1.2
+revision=1
 build_style=cmake
 hostmakedepends="pkg-config cmake qt6-base qt6-declarative-host-tools
  glib-devel protobuf go gendesk"
@@ -11,7 +11,7 @@ maintainer="Nizarjh <chel773@tutamail.com>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/throneproj/Throne"
 distfiles="https://github.com/throneproj/Throne/archive/${version}.tar.gz"
-checksum=31d1af802503d657796774bbb5cb55553cbeafe433efdcbbb209ebd16f8b045d
+checksum=39bc041266033909b5d91f0d6b2db7af853c3de53564fd2905187f7e1aecbca4
 nocross=yes
 
 post_fetch() {
