@@ -1,6 +1,6 @@
 # Template file for 'fsel'
 pkgname=fsel
-version=3.4.0
+version=3.4.1
 revision=1
 build_style=cargo
 short_desc="Terminal file and app launcher with dmenu and clipboard features"
@@ -9,7 +9,7 @@ license="BSD-2-Clause"
 homepage="https://github.com/Mjoyufull/fsel"
 changelog="https://github.com/Mjoyufull/fsel/releases"
 distfiles="https://github.com/Mjoyufull/fsel/archive/refs/tags/${version}.tar.gz"
-checksum=96a7471de896a5145cbe584969ff88a072e81b45c6a7ba081c9cec6f6c2bc3d3
+checksum=ac2c30b59ec3c35585379890ceab17a9e12ae195acb24530cea2ff4a8e22b0bb
 
 post_install() {
 	vlicense LICENSE
